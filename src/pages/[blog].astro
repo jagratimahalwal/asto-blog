@@ -5,7 +5,11 @@ import { slugify } from "../js/utils";
 import { Image } from 'astro:assets';
 
 
-
+import coffee from '../assets/coffee.jpg'
+import band from '../assets/band.jpg'
+import gear from '../assets/gear.jpg'
+import photoshoot from '../assets/photoshoot.jpg'
+import record  from '../assets/record.jpg';
 
  export async function getStaticPaths() {
   return blogs.map((post) => {
@@ -19,6 +23,7 @@ import { Image } from 'astro:assets';
 const { blog } = Astro.params;
 const { post } = Astro.props;
 const page = blogs.find((page) => page.title === post.title);
+const imageName = {band, gear, coffee, photoshoot, record}
 
 ---
 
@@ -29,7 +34,7 @@ const page = blogs.find((page) => page.title === post.title);
     <h2 transition:name="title" class="text-4xl my-8">
 			  {page.title}
 		</h2>  
-        
+       <Image src={imageName[page.image]} alt={page.title}  format='webp' transition:name='card-image' /> 
 		    <p class="whitespace-pre-line my-8" transition:animate="slide">
           {page.content}
         </p>

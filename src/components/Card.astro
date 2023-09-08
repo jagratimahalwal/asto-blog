@@ -2,7 +2,11 @@
 import { Image } from 'astro:assets';
 import { slugify } from "../js/utils";
 
- 
+import coffee from '../assets/coffee.jpg'
+import band from '../assets/band.jpg'
+import gear from '../assets/gear.jpg'
+import photoshoot from '../assets/photoshoot.jpg'
+import record  from '../assets/record.jpg';
 
 interface Props {
 	title: string;
@@ -12,7 +16,7 @@ interface Props {
 }
 
 const { title, body , image} = Astro.props;
- 
+const imageName = {band, gear, coffee, photoshoot, record}
 ---
 
 <li class="link-card">
@@ -20,9 +24,10 @@ const { title, body , image} = Astro.props;
 		<h2 transition:name="title">
 			{title}
 		</h2>
-		    <!--  <Image src={imageName[image]} alt={title}  format='webp' transition:name='card-image' />  -->
+		     <Image src={imageName[image]} alt={title}  format='webp' transition:name='card-image' /> 
 		    
-		      
+		      <!-- <img src=`src/assets/${image}.jpg` alt="default-image"  />   -->
+			 
 		<p class="whitespace-pre-line	">
 			{body}
 		</p>
