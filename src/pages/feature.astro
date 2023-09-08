@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { Image } from 'astro:assets'; 
+import AstroLogo from '../assets/astro.png'
+---
+
+<Layout title="features">
+	<main class=" mx-auto w-10/12 text-white mt-10">
+		<div class="flex flex-row gap-8">
+			<div>
+				<h2 class="text-4xl mb-8">View Transitions</h2>
+		   <p>Astro supports opt-in, per-page, view transitions with just a few lines of code. View transitions update your page content without the browser’s normal, full-page navigation refresh and provide seamless animations between pages.</p>
+			</div>
+			<Image src={AstroLogo} alt='logo'  format='webp' transition:name='logo-image'/> 
+	</div>  
+	<div>
+		<a href="/transition">Click here for transitions</a>
+	</div>
+
+	</main>
+</Layout>

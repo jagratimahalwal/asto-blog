@@ -1,0 +1,37 @@
+---
+import Layout from '../layouts/Layout.astro';
+import blogs from '../data/randomData.json'
+import { slugify } from "../js/utils";
+import { Image } from 'astro:assets';
+
+
+
+
+ export async function getStaticPaths() {
+  return blogs.map((post) => {
+    return {
+      params: {blog: slugify(post.title)},
+      props: { post}
+    };
+  });
+} 
+
+const { blog } = Astro.params;
+const { post } = Astro.props;
+const page = blogs.find((page) => page.title === post.title);
+
+---
+
+
+
+<Layout title={page.title}>
+	<main class=" mx-auto w-10/12 text-white ">
+    <h2 transition:name="title" class="text-4xl my-8">
+			  {page.title}
+		</h2>  
+        
+		    <p class="whitespace-pre-line my-8" transition:animate="slide">
+          {page.content}
+        </p>
+	</main>
+</Layout>

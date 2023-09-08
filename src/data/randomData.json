@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Ask HN: “Are you a good programmer?” – is it a pointless question?",
+    "image": "record",
+    "content": "I ask people during interview if they think they are a good programmer.  If they say &quot;yes&quot;, then I go on to ask them why they think they are a good programmer - what is it that makes them a good programmer.\nI have found that people are usually quite candid and usually do have some sense of where they fit in the hierarchy of programming skills. Some people give the honest answer that they think they are good, but not top level.  Others say &quot;yes I am, but there is always more to learn&quot;. Others go into some fairly detailed explanation of why they think they are a good programmer. One of the responses that I find most meaningful is when people say that they are the &quot;go to&quot; person on the development team - all the other programmers come to them with their questions.\nIs it a valuable question to ask during a job interview or do you think every programmer thinks they are great?"
+  },
+  {
+    "title": "Justin.tv is looking for a Lead Flash Engineer!",
+    "image": "band",
+    "content": "Justin.tv is the biggest live video site online. We serve hundreds of thousands of video streams a day, and have supported up to 50k live concurrent viewers. Our site is growing every week, and we just added a 10 gbps line to our colo. Our unique visitors are up 900% since January.\nThere are a lot of pieces that fit together to make Justin.tv work: our video cluster, IRC server, our web app, and our monitoring and search services, to name a few. A lot of our website is dependent on Flash, and we\"re looking for talented Flash Engineers who know AS2 and AS3 very well who want to be leaders in the development of our Flash.\nResponsibilities\n    * Contribute to product design and implementation discussions\n    * Implement projects from the idea phase to production\n    * Test and iterate code before and after production release \n\nQualifications\n    * You should know AS2, AS3, and maybe a little be of Flex.\n    * Experience building web applications.\n    * A strong desire to work on website with passionate users and ideas for how to improve it.\n    * Experience hacking video streams, python, Twisted or rails all a plus.\n\nWhile we\"re growing rapidly, Justin.tv is still a small, technology focused company, built by hackers for hackers. Seven of our ten person team are engineers or designers. We believe in rapid development, and push out new code releases every week. We\"re based in a beautiful office in the SOMA district of SF, one block from the caltrain station. If you want a fun job hacking on code that will touch a lot of people, JTV is for you.\nNote: You must be physically present in SF to work for JTV. Completing the technical problem at will go a long way with us. Cheers!"
+  },
+  {
+    "title": "Ask HN: Legality of freelancing on the side?",
+    "image": "gear",
+    "content": "I&#x27;m considering doing some freelance work on the side for the last company I worked for, in addition to my full time job as a software engineer. The companies are in different fields and, as I am in CA, I don&#x27;t think it would violate my main employer&#x27;s IP agreement to do some limited work on the side not using any company computers or equipment.  However, I&#x27;m not totally sure what to watch legally.  In particular:\n1. Are there any particular legal issues I should look out for? (e.g., contract provisions or something)\n2. Should I ask permission from my current company?\n3. Any examples of contracts that do not require full assignment of IP? (i.e., I want to limit assignment of inventions to just the code &#x2F; ideas I deliver to the company directly)"
+  },
+  {
+    "title": "Ask HN: Selling SaaS to government authorities?",
+    "image": "coffee",
+    "content": "The title pretty much sums up my question.\nTogether with another developer I am currently building a citizen happiness analytics solution for government authorities.\nAny tips or experiences with selling SaaS to our target market? General B2G tips?"
+  },
+  {
+    "title": "Collaboration",
+    "image": "photoshoot",
+    "content": "Collaboration is a key component of many creative endeavors, and music production is no exception. In fact, collaboration can be essential to the success of a music project, as it allows for the pooling of diverse talents and perspectives to create something truly unique and compelling."
+  }
+]

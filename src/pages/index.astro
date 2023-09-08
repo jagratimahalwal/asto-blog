@@ -1,0 +1,21 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Card from '../components/Card.astro';
+import blogs from '../data/randomData.json'
+import NewCard from '../components/NewCard';
+---
+
+<Layout title="Welcome to Astro.">
+	<main class=" mx-auto w-10/12 ">
+		 
+		<ul role="list" class="grid gap-8 p-0 grid-cols-1 lg:grid-cols-2 mt-12">
+			{
+				blogs.map((obj) => {
+					return ( 
+						 <Card  title={obj.title} body={obj.content} image={obj.image}/> 
+					)
+				})
+			}
+		</ul>
+	</main>
+</Layout>
